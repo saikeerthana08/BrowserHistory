@@ -1,0 +1,51 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  margin: 0px;
+}
+
+.list-row-container {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  margin-right: 50px;
+  color: #64748b;
+  font-size: 18px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.name {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.domain-url {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #64748b;
+  font-size: 18px;
+}
+
+.button {
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-logo {
+  height: 20px;
+  width: 20px;
+  color: #475569;
+}
